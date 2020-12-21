@@ -1,0 +1,26 @@
+### post hello!
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+  "text": "hello!"
+}
+
+### post bonjour!
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+  "text": "bonjour!"
+}
+
+### post tere!
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+  "text": "tere!"
+}
+
+###
+GET http://localhost:8080/
